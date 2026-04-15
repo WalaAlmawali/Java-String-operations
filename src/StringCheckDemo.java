@@ -9,6 +9,8 @@ public class StringCheckDemo {
         String updatedMessage = message.replace("our","my");
         System.out.println("the updated message are : " + updatedMessage);
 
+        System.out.println("is the message contain world 'class' ? " +updatedMessage.contains("class") );
+
 
     }
 }
