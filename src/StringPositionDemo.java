@@ -1,6 +1,10 @@
 public class StringPositionDemo {
     public static void main(String[] args){
 
+        String text = "welcome to our site";
+        System.out.println("the original string are : " + text);
+
+
 
 
     }
