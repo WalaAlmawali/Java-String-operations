@@ -4,6 +4,8 @@ public class StringPositionDemo {
         String text = "welcome to our site";
         System.out.println("the original string are : " + text);
 
+        System.out.println("the index of 'm' in the string is : " + text.indexOf("m"));
+
 
 
 
