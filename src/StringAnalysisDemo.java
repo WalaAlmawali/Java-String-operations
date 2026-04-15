@@ -9,6 +9,7 @@ public class StringAnalysisDemo {
 
         System.out.println("is "+Text + "equals to "+ Text2 + "?" + Text.equals(Text2) );
 
+        System.out.println("the index of character 'v' in the string is :" + Text.indexOf("v") );
 
     }
 }
