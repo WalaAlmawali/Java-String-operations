@@ -4,6 +4,8 @@ public class StringCompareDemo {
         String word = "Sara";
         System.out.println(word);
 
+        System.out.println(word.charAt(2));
+
 
     }
 }
