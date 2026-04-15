@@ -10,5 +10,7 @@ public class StringDataDemo {
         String inLower = sentence.toLowerCase();
         System.out.println("sentence in Lowre case : " + inLower);
 
+        System.out.println("the index of big in sentence is: "+ sentence.indexOf("big"));
+
     }
 }
