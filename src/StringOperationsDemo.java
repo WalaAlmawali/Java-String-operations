@@ -4,5 +4,8 @@ public class StringOperationsDemo {
         String customer_name = "Wala";
         System.out.println(customer_name);
 
+        System.out.println("the length of srtring are :"+customer_name.length());
+
+
     }
 }
