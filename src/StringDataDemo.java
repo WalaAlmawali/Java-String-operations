@@ -12,5 +12,6 @@ public class StringDataDemo {
 
         System.out.println("the index of big in sentence is: "+ sentence.indexOf("big"));
 
+        System.out.println(" the first two world in the sentence are : "+sentence.substring(0,7)) ;
     }
 }
