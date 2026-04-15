@@ -8,5 +8,7 @@ public class StringModifyDemo {
         System.out.println(sentence.trim());
 
 
+        System.out.println(" is the sentence contain world 'world' ? "+sentence.contains("world"));
+
     }
 }
