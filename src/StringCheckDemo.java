@@ -12,6 +12,9 @@ public class StringCheckDemo {
         System.out.println("is the message contain world 'class' ? " +updatedMessage.contains("class") );
         System.out.println("the character in index 5 un the message is :  " +updatedMessage.charAt(5) );
 
+        String text = " in Oman";
+        System.out.println(updatedMessage.concat(" ").concat(text));
+
 
     }
 }
