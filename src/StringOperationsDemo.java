@@ -6,6 +6,10 @@ public class StringOperationsDemo {
 
         System.out.println("the length of srtring are :"+customer_name.length());
 
+        System.out.println("string in Upper Case :"+customer_name.toUpperCase());
+        System.out.println("string in Lower Case :"+customer_name.toLowerCase());
+
+
 
     }
 }
