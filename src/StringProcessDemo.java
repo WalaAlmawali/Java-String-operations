@@ -10,5 +10,15 @@ public class StringProcessDemo {
         for (String part : parts) {
             System.out.println(part);
         }
+
+        String word1 = "Sara";
+        String word2 = "sara";
+
+        System.out.println("is " + word1 +" equals to "+word2+ "?" + word1.equalsIgnoreCase(word2));
+
+        String world3 = "";
+        System.out.println("Is the string"  +"'"+ world3 +"'"+"empty? " + world3.isEmpty());
+
+
     }
 }
