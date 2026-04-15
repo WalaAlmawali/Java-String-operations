@@ -5,7 +5,7 @@ public class StringCompareDemo {
         System.out.println(word);
 
         System.out.println(word.charAt(2));
-
+        System.out.println(word.substring(1,3));
 
     }
 }
