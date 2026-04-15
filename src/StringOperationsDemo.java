@@ -9,6 +9,8 @@ public class StringOperationsDemo {
         System.out.println("string in Upper Case :"+customer_name.toUpperCase());
         System.out.println("string in Lower Case :"+customer_name.toLowerCase());
 
+        String  company_name = "Code Line";
+        System.out.println(customer_name.concat("  ").concat(company_name));
 
 
     }
