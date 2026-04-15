@@ -8,6 +8,7 @@ public class StringPositionDemo {
 
         System.out.println("is the string start with 'a' character? " + text.startsWith("a"));
 
+        System.out.println("is the string ends with 'e' character? " + text.endsWith("e"));
 
 
     }
