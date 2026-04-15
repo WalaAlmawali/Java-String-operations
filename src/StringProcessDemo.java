@@ -6,6 +6,9 @@ public class StringProcessDemo {
         String trimedString = record.trim();
         System.out.println(trimedString);
 
-
+        String[] parts = trimedString.split(",");
+        for (String part : parts) {
+            System.out.println(part);
+        }
     }
 }
