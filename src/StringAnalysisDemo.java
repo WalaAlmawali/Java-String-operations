@@ -13,6 +13,7 @@ public class StringAnalysisDemo {
 
 
         System.out.println("is the string start with 'I' character? " + Text.startsWith("I"));
+        System.out.println("is the string end with 'y' character? " + Text.endsWith("y"));
 
 
     }
