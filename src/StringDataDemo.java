@@ -7,5 +7,8 @@ public class StringDataDemo {
         String inUpper = sentence.toUpperCase();
         System.out.println("sentence in Upper case : " + inUpper);
 
+        String inLower = sentence.toLowerCase();
+        System.out.println("sentence in Lowre case : " + inLower);
+
     }
 }
