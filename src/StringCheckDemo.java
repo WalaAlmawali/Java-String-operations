@@ -10,6 +10,7 @@ public class StringCheckDemo {
         System.out.println("the updated message are : " + updatedMessage);
 
         System.out.println("is the message contain world 'class' ? " +updatedMessage.contains("class") );
+        System.out.println("the character in index 5 un the message is :  " +updatedMessage.charAt(5) );
 
 
     }
