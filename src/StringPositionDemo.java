@@ -6,6 +6,7 @@ public class StringPositionDemo {
 
         System.out.println("the index of 'm' in the string is : " + text.indexOf("m"));
 
+        System.out.println("is the string start with 'a' character? " + text.startsWith("a"));
 
 
 
