@@ -6,6 +6,8 @@ public class StringCheckDemo {
 
         System.out.println("first to world in the string : " +message.substring(0,10) );
 
+        String updatedMessage = message.replace("our","my");
+        System.out.println("the updated message are : " + updatedMessage);
 
 
     }
