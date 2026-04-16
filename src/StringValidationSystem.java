@@ -34,6 +34,13 @@ public class StringValidationSystem {
         }
 
 
+        if (text.length() >= 5) {
+            System.out.println("Substring (0 to 5): " + text.substring(0, 5));
+        } else {
+            System.out.println("String is too short for substring operation.");
+        }
+
+
 
 
 
