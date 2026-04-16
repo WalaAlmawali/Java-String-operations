@@ -9,7 +9,14 @@ public class StringNestedLoopDemo {
         System.out.println("Length of first String is: " + text1.length());
         System.out.println("Length of second String is: " + text2.length());
 
+        for (int i = 0; i < text1.length(); i++) {
 
+            for (int j = 0; j < text2.length(); j++) {
+
+
+            }
+
+        }
 
 
     }
