@@ -10,6 +10,8 @@ public class StringValidationSystem {
 
         System.out.println("\nOriginal String: " + text);
 
+        System.out.println("Length of string: " + text.length());
+
 
 
 
