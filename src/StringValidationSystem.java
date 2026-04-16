@@ -12,6 +12,8 @@ public class StringValidationSystem {
 
         System.out.println("Length of string: " + text.length());
 
+        System.out.println("Uppercase: " + text.toUpperCase());
+
 
 
 
