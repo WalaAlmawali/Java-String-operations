@@ -24,6 +24,10 @@ public class StringValidationSystem {
             System.out.println("The word '" + searchWord + "' does NOT exist in the string.");
         }
 
+        System.out.print("\nEnter another string to compare: ");
+        String compareText = input.nextLine();
+
+
 
 
 
