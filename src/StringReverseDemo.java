@@ -6,6 +6,10 @@ public class StringReverseDemo {
 
         System.out.println("Length of String is: " + text.length());
 
+        for (int i = 0; i < text.length(); i++) {
+            System.out.println(text.charAt(i));
+        }
+
 
 
     }
