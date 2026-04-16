@@ -6,6 +6,7 @@ public class StringLoopDemo {
         System.out.println("Length of String is: " + sentence.length());
 
         int vowels = 0;
+        int consonants = 0;
 
         for (int i = 0; i < sentence.length(); i++) {
             char ch = sentence.charAt(i);
@@ -15,6 +16,10 @@ public class StringLoopDemo {
 
             if (lower == 'a' || lower == 'e' || lower == 'i' || lower == 'o' || lower == 'u') {
                 vowels++;
+            }
+
+            else if (lower >= 'a' && lower <= 'z') {
+                consonants++;
             }
 
         }
