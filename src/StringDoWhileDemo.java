@@ -3,5 +3,8 @@ public class StringDoWhileDemo {
         String sentence = "Sara is a smart girl!";
         System.out.println("Original String: " +"\n"+sentence );
 
+        System.out.println("Length of String is: " + sentence.length());
+
+
     }
 }
