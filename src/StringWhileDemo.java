@@ -21,8 +21,15 @@ public class StringWhileDemo {
                 uppercaseLetters++;
             }
 
+            i++;
+
 
         }
+
+        System.out.println("Total Spaces: " + spaces);
+
+        System.out.println("Total Uppercase Letters: " + uppercaseLetters);
+
 
     }
 }
