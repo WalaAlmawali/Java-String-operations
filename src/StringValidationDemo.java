@@ -13,6 +13,9 @@ public class StringValidationDemo {
 
         System.out.println("the last world in the string is :" + updatedText.substring(10,updatedText.length()));
 
+        System.out.println("Length of string is : " + updatedText.length());
+
+
 
 
 
