@@ -9,6 +9,7 @@ public class StringWhileDemo {
         while (i < sentence.length()) {
 
             char ch = sentence.charAt(i);
+            System.out.println(ch);
 
         }
 
