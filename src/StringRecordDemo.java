@@ -13,6 +13,11 @@ public class StringRecordDemo {
 
         System.out.println("Are " + word1 + " equals to " + word2 +"?" +word1.equalsIgnoreCase(word2));
 
+        String[] recordParts = trimRecord.split(" ");
+
+        for (String part : recordParts) {
+            System.out.println(part);
+        }
 
     }
 }
