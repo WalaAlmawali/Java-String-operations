@@ -6,6 +6,10 @@ public class StringIfElseIfDemo {
 
         if (text.isEmpty()) {
             System.out.println("The string is empty.");
+
+        } else if (text.length() < 5) {
+
+            System.out.println("The string is too short.");
         }
     }
 }
