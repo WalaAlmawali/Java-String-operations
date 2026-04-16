@@ -5,11 +5,17 @@ public class StringWhileDemo {
 
         System.out.println("Length of String is: " + sentence.length());
         int i = 0;
+        int spaces = 0;
 
         while (i < sentence.length()) {
 
             char ch = sentence.charAt(i);
             System.out.println(ch);
+
+            if (ch == ' ') {
+                spaces++;
+            }
+
 
         }
 
