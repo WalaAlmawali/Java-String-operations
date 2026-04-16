@@ -9,6 +9,10 @@ public class StringDoWhileDemo {
         int i = 0;
 
         do {
+            char ch = sentence.charAt(i);
+            System.out.println(ch);
+
+
 
             i++;
 
