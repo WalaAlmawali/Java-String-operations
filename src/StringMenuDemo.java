@@ -15,6 +15,9 @@ public class StringMenuDemo {
         System.out.println("5. Compare with another string (ignore case)");
         System.out.println("========================");
 
+        System.out.print("Enter your choice (1-5): ");
+        int choice = input.nextInt();
+        input.nextLine();
 
     }
 }
