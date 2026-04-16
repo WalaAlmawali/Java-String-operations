@@ -6,5 +6,12 @@ public class StringLoopDemo {
         System.out.println("Length of String is: " + sentence.length());
 
 
+        for (int i = 0; i < sentence.length(); i++) {
+            char ch = sentence.charAt(i);
+            System.out.println(ch);
+
+        }
+
+
     }
 }
