@@ -29,5 +29,9 @@ public class StringDoWhileDemo {
             i++;
 
         } while (i < sentence.length());
+
+        System.out.println("Total Lowercase Letters: " + lowercaseLetters);
+
+        System.out.println("Total Spaces: " + spaces);
     }
 }
