@@ -11,6 +11,9 @@ public class StringValidationDemo {
         String updatedText = text.replace("my", "your");
         System.out.println("updated  String: " +"\n"+updatedText );
 
+        System.out.println("the last world in the string is :" + updatedText.substring(10,updatedText.length()));
+
+
 
 
 
