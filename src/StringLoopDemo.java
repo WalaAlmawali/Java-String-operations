@@ -7,11 +7,12 @@ public class StringLoopDemo {
 
         int vowels = 0;
         int consonants = 0;
+        int digits = 0;
 
         for (int i = 0; i < sentence.length(); i++) {
             char ch = sentence.charAt(i);
             char lower = Character.toLowerCase(ch);
-            int digits = 0;
+
 
             System.out.println(ch);
 
@@ -28,6 +29,12 @@ public class StringLoopDemo {
             }
 
         }
+
+        System.out.println("Total Vowels: " + vowels);
+
+        System.out.println("Total Consonants: " + consonants);
+
+        System.out.println("Total Digits: " + digits);
 
 
     }
