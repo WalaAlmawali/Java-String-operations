@@ -6,6 +6,7 @@ public class StringWhileDemo {
         System.out.println("Length of String is: " + sentence.length());
         int i = 0;
         int spaces = 0;
+        int uppercaseLetters = 0;
 
         while (i < sentence.length()) {
 
@@ -14,6 +15,10 @@ public class StringWhileDemo {
 
             if (ch == ' ') {
                 spaces++;
+            }
+
+            if (ch >= 'A' && ch <= 'Z') {
+                uppercaseLetters++;
             }
 
 
