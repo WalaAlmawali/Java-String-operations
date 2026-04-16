@@ -18,6 +18,11 @@ public class StringValidationSystem {
         System.out.print("\nEnter a word to search: ");
         String searchWord = input.nextLine();
 
+        if (text.contains(searchWord)) {
+            System.out.println("The word '" + searchWord + "' EXISTS in the string.");
+        } else {
+            System.out.println("The word '" + searchWord + "' does NOT exist in the string.");
+        }
 
 
 
