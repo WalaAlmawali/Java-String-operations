@@ -18,6 +18,13 @@ public class StringIfElseIfDemo {
         }  else if (text.endsWith(".")) {
 
             System.out.println("The string ends with '.'");
+
+        }  else if (text.equalsIgnoreCase("javaprogram")) {
+            System.out.println("The string matches 'javaprogram' (ignore case).");
+        }
+
+        else {
+            System.out.println("The string does not match any condition.");
         }
     }
 }
