@@ -14,6 +14,10 @@ public class StringIfElseIfDemo {
         }  else if (text.startsWith("Java")) {
 
             System.out.println("The string starts with 'Java'.");
+
+        }  else if (text.endsWith(".")) {
+
+            System.out.println("The string ends with '.'");
         }
     }
 }
