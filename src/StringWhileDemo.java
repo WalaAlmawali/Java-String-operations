@@ -3,5 +3,8 @@ public class StringWhileDemo {
         String sentence = "I love Programming";
         System.out.println("Original String: " +"\n"+sentence );
 
+        System.out.println("Length of String is: " + sentence.length());
+
+
     }
 }
