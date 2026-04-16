@@ -27,6 +27,12 @@ public class StringValidationSystem {
         System.out.print("\nEnter another string to compare: ");
         String compareText = input.nextLine();
 
+        if (text.equalsIgnoreCase(compareText)) {
+            System.out.println("Both strings are EQUAL (ignore case).");
+        } else {
+            System.out.println("Strings are NOT equal.");
+        }
+
 
 
 
