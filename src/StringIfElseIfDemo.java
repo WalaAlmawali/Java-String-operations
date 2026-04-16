@@ -10,6 +10,10 @@ public class StringIfElseIfDemo {
         } else if (text.length() < 5) {
 
             System.out.println("The string is too short.");
+
+        }  else if (text.startsWith("Java")) {
+
+            System.out.println("The string starts with 'Java'.");
         }
     }
 }
