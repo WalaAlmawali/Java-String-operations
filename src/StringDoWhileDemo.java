@@ -6,5 +6,12 @@ public class StringDoWhileDemo {
         System.out.println("Length of String is: " + sentence.length());
 
 
+        int i = 0;
+
+        do {
+
+            i++;
+
+        } while (i < sentence.length());
     }
 }
