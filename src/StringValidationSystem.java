@@ -40,9 +40,11 @@ public class StringValidationSystem {
             System.out.println("String is too short for substring operation.");
         }
 
-
-
-
+        if (text.length() > 5) {
+            System.out.println("The string length is greater than 5 (Valid length).");
+        } else {
+            System.out.println("The string length is 5 or less (Too short).");
+        }
 
 
     }
