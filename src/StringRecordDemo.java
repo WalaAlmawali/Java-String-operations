@@ -22,6 +22,9 @@ public class StringRecordDemo {
         String emptyString = "";
         System.out.println("Is the string empty? " + emptyString.isEmpty());
 
+        System.out.println("Character at index 6: " + trimRecord.charAt(6));
+
+
 
 
     }
