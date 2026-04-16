@@ -15,6 +15,10 @@ public class StringValidationSystem {
         System.out.println("Uppercase: " + text.toUpperCase());
         System.out.println("Lowercase: " + text.toLowerCase());
 
+        System.out.print("\nEnter a word to search: ");
+        String searchWord = input.nextLine();
+
+
 
 
 
