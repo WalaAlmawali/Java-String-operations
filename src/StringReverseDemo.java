@@ -4,6 +4,8 @@ public class StringReverseDemo {
         String text = "Java Programming";
         System.out.println("Original String: " +"\n"+text );
 
+        System.out.println("Length of String is: " + text.length());
+
 
 
     }
