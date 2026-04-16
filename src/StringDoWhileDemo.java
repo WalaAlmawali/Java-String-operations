@@ -8,6 +8,7 @@ public class StringDoWhileDemo {
 
         int i = 0;
         int lowercaseLetters = 0;
+        int spaces = 0;
 
 
         do {
@@ -16,6 +17,10 @@ public class StringDoWhileDemo {
 
             if (ch >= 'a' && ch <= 'z') {
                 lowercaseLetters++;
+            }
+
+            if (ch == ' ') {
+                spaces++;
             }
 
 
