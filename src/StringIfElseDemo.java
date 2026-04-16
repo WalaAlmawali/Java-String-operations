@@ -23,5 +23,11 @@ public class StringIfElseDemo {
             System.out.println("Username does not contain the letter 'a'.");
         }
 
+        if (username.isEmpty()) {
+            System.out.println("Username is empty.");
+        } else {
+            System.out.println("Username is not empty.");
+        }
+
     }
 }
