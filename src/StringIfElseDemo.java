@@ -17,5 +17,11 @@ public class StringIfElseDemo {
             System.out.println("Password is incorrect.");
         }
 
+        if (username.contains("a")) {
+            System.out.println("Username contains the letter 'a'.");
+        } else {
+            System.out.println("Username does not contain the letter 'a'.");
+        }
+
     }
 }
