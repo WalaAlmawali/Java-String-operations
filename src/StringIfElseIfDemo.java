@@ -4,5 +4,8 @@ public class StringIfElseIfDemo {
         String text = "Java Programming";
         System.out.println("Original String: " +"\n"+text );
 
+        if (text.isEmpty()) {
+            System.out.println("The string is empty.");
+        }
     }
 }
