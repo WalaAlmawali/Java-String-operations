@@ -8,6 +8,12 @@ public class StringValidationDemo {
         System.out.println("Is the string start with 'It's'? " + text.startsWith("It's"));
         System.out.println("Is the string ends with '.'? " + text.endsWith("."));
 
+        String updatedText = text.replace("my", "your");
+        System.out.println("updated  String: " +"\n"+updatedText );
+
+
+
+
 
 
 
