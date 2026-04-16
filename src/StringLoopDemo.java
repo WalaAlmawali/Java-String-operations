@@ -11,6 +11,7 @@ public class StringLoopDemo {
         for (int i = 0; i < sentence.length(); i++) {
             char ch = sentence.charAt(i);
             char lower = Character.toLowerCase(ch);
+            int digits = 0;
 
             System.out.println(ch);
 
@@ -20,6 +21,10 @@ public class StringLoopDemo {
 
             else if (lower >= 'a' && lower <= 'z') {
                 consonants++;
+            }
+
+            if (Character.isDigit(ch)) {
+                digits++;
             }
 
         }
