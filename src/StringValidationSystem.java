@@ -8,6 +8,9 @@ public class StringValidationSystem {
         System.out.print("Enter a sample string: ");
         String text = input.nextLine();
 
+        System.out.println("\nOriginal String: " + text);
+
+
 
 
     }
