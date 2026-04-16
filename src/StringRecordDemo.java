@@ -19,5 +19,10 @@ public class StringRecordDemo {
             System.out.println(part);
         }
 
+        String emptyString = "";
+        System.out.println("Is the string empty? " + emptyString.isEmpty());
+
+
+
     }
 }
